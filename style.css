@@ -1,0 +1,488 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+  margin-top: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff;
+  color: #000000;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 130px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  margin-right: 7.8125%;
+}
+
+nav>ul {
+  display: flex;
+  gap: 30px;
+  font-size: 22px;
+  justify-content: end;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+  font-family: Heebo;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 41px;
+  letter-spacing: 0em;
+}
+
+header>button {
+  display: none;
+}
+
+main {
+  width: 100%;
+  padding-top: 130px;
+  font-size: 20px;
+  line-height: 2;
+}
+
+.burger-nav {
+  display: none;
+  background-color: #ffffff;
+  color: #000000;
+  position: absolute;
+  right: 0px;
+  padding: 100px;
+  height: 100vh;
+}
+
+.burger-nav>ul {
+  display: flex;
+  flex-direction: column;
+  color: #000000;
+}
+
+.logo {
+  height: 119px;
+  width: 148px;
+  margin-left: 7.6041%;
+  margin-top: 8px;
+}
+
+.first-block {
+  width: 100%;
+  background-color: #4EC1AF;
+}
+
+h1 {
+  width: 39.4791667%;
+  margin: 0 auto;
+  padding-top: 70px;
+  font-family: Merienda One;
+  font-size: 68px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 88px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.description {
+  width: 57.7604167%;
+  font-family: Heebo;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 31px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #00000080;
+  margin: 22px auto 0 auto;
+}
+
+.first-btn {
+  margin: 30px auto;
+  display: block;
+  width: 300px;
+  height: 75px;
+  border: 1px solid #1D9585;
+  border-radius: 50px;
+  box-shadow: 0.1px 6px 10px #1D9585;
+  background-color: #1D9585;
+  color: #ffffff;
+  font-family: Heebo;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 39px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.lotus-pose {
+  width: 30.78125%;
+  display: block;
+  margin: 70px auto 2px auto;
+}
+
+.second-block {
+  display: flex;
+  width: 100vw;
+  background-color: #EDFBF9;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 120px;
+  padding-bottom: 44.51px;
+  gap: 9.375%;
+}
+
+.card {
+  align-items: center;
+  background-color: #ffffff;
+  width: 21.875%;
+  border: 1px solid #ffffff;
+  border-radius: 20px;
+}
+
+.card__img {
+  display: block;
+  margin: 50px auto 20px auto;
+}
+
+.card__name {
+  font-family: Heebo;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 47px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.card__description {
+  font-family: Heebo;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #000000;
+  margin: 20px 11.42857%;
+}
+
+.card__button {
+  display: block;
+  margin: 60px auto;
+  background-color: #1F9485;
+  height: 55px;
+  width: 50%;
+  border: 1px solid #1F9485;
+  box-shadow: 0.1px 6px 10px #1F948570;
+  border-radius: 30px;
+  font-family: Heebo;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 31px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+}
+
+nav>ul>li>a:hover {
+  color: #1A7F72;
+  font-family: Heebo;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 47px;
+  letter-spacing: 0em;
+  border: 1px solid #1A7F72;
+}
+
+.practice {
+  width: 100vw;
+  background-color: #EDFBF9;
+}
+
+.practice__name {
+  width: 36.7708333%;
+  font-family: Merienda One;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 70px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #000000;
+  padding-top: 77px;
+  margin: 0px auto 0 auto;
+}
+
+.practice__description {
+  width: 37.34375%;
+  font-family: Heebo;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 31px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #00000050;
+  margin: 22px auto 70px auto;
+}
+
+.practice__wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 8.125%;
+  align-items: center;
+  justify-content: center;
+  background-image: url(assets/background-practice.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+  padding-bottom: 60px;
+}
+
+.practice__wrapper__img {
+  width: 38.8020833%;
+  align-self: center;
+  display: block;
+}
+
+.practice__wrapper__description {
+  width: 37.34375%;
+}
+
+.practice__wrapper__description__block__name {
+  font-family: Heebo;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 47px;
+  letter-spacing: 0em;
+  color: #000000;
+  margin-left: 5.57880056%;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.practice__wrapper__description__block__text {
+  margin-left: 5.57880056%;
+  margin-bottom: 35px;
+  font-family: Heebo;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 31px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #00000080;
+}
+
+.highlight-block {
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 15px;
+  padding-right: 3%;
+}
+
+.best {
+  width: 100vw;
+  background-color: #4EC1AF;
+}
+
+.best__name {
+  font-family: Merienda One;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 70px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #000000;
+  padding-top: 118px;
+  text-align: center;
+}
+
+.best__description {
+  font-family: Heebo;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 31px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #00000080;
+  margin-top: 22px;
+  margin-bottom: 69px;
+}
+
+.best__wrapper {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding-bottom: 160px;
+}
+
+.best__container {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.best__container__block {
+  width: 100%;
+  height: 200px;
+  background-color: #C3EEE8;
+  border: 2px solid #378377;
+  border-radius: 15px;
+}
+
+
+.best__container_name {
+  font-family: Heebo;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 47px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: #000000CC;
+  margin-right: 35px;
+  margin-top: 20px;
+}
+
+.best__container_name-2 {
+  font-family: Heebo;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 47px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000000CC;
+  margin-left: 35px;
+  margin-top: 20px;
+}
+
+.best__container_description {
+  font-family: Heebo;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 31px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: #00000080;
+  margin-right: 35px;
+  margin-left: 79px;
+}
+
+.best__container_descriptio-2 {
+  font-family: Heebo;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 31px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #00000080;
+  margin-left: 35px;
+  margin-right: 79px;
+}
+
+.best__img {
+  width: 17.65625%;
+}
+
+.transform {
+  background-color: #EDFBF9;
+  width: 100vw;
+}
+
+.transform__main {
+  display: flex;
+  width: 100%;
+  background-image: url(assets/background-practice.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.transform__main-2 {
+  display: flex;
+  width: 100%;
+  background-image: url(assets/background-practice.svg);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.transform__description {
+  width: 50%;
+  font-family: Heebo;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 31px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #00000080;
+  margin: 22px auto 69px auto;
+}
+
+
+
+
+@media (max-width: 800px) {
+  nav {
+    display: none;
+  }
+
+  header>button {
+    display: inline;
+  }
+
+  :checked~.burger-nav {
+    display: block;
+  }
+
+  .cards {
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cards>.card {
+    width: 70%;
+  }
+
+  .practice__wrapper {
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+}
